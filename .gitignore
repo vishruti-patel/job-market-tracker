@@ -1,0 +1,4 @@
+jmt.venv/
+data/raw/
+.env
+__pycache__/
