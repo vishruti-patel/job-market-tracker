@@ -23,7 +23,7 @@ def save_raw(board: str, payload: dict, run_date: str) -> Path:
 
     with open(path, "w") as f:
         #json.dump taked in 2 param - (what to write, where to write)
-        json.dump(payload, f)
+        json.dump(payload, f, indent=2)
     return path
 
 def main():
@@ -45,7 +45,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-    
+
 
 
 
